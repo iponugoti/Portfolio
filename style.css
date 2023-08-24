@@ -1,0 +1,122 @@
+/* athiti-regular - latin */
+@font-face {
+  font-family: 'Athiti';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/athiti-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* athiti-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Athiti';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/athiti-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* athiti-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Athiti';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/athiti-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* athiti-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Athiti';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/athiti-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+  body {
+      font-family: "Athiti", sans-serif;
+      font-weight: 500;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Athiti;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .header-name {
+    display: block;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+
+  /* https://www.w3schools.com/howto/howto_js_sidenav.asp */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10rem;
+    list-style-type: none;
+  }
+  .sidenav ul {
+    list-style-type: none;
+  }
+
+  .sidenav a {
+    padding: 6px 6px 6px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  /* .main {
+    margin-left: 200px;
+  }*/
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  a:hover{
+    color: hotpink;
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex; /* or inline-flex */
+  }
+  
+  .footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-link img:hover{
+    background: hotpink;
+}
+
+.home-text {
+  margin: 2% 20%; 
+  text-align: center; 
+  font-weight: 600;
+}
+
+.home-img {
+  margin: 3% 25%; 
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .home-text{
+    margin: 2% 30%; 
+    text-align: center; 
+    font-weight: 600;
+  }
+  .home-img{
+    margin: 1% 35%; 
+    text-align: center;
+  }
+}
