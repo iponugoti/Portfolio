@@ -97,6 +97,7 @@
     background: hotpink;
 }
 
+/* Home Page */
 .home-text {
   margin: 2% 20%; 
   text-align: center; 
@@ -106,6 +107,50 @@
 .home-img {
   margin: 3% 25%; 
   text-align: center;
+}
+
+/* Work Page */
+/* https://www.youtube.com/watch?v=bMPuqPHyoOI */
+* {
+  /* padding: 0px; */
+  box-sizing: border-box;
+}
+
+.work-container {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .work-container {
+    grid-template-columns: 1fr;
+    margin: 3% 25%; 
+  }
+}
+
+/* Style the work cards */
+.work-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.work-title{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.work-desc{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
 }
 
 @media only screen and (min-width: 768px) {
