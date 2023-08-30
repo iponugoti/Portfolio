@@ -124,6 +124,12 @@
   grid-gap: 30px;
 }
 
+.work-logo{
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .work-container {
@@ -140,16 +146,21 @@
 }
 
 .work-title{
+  display: flex;
+  justify-content: center;
   text-align: center;
+  margin: 3%;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: normal;
 }
 
 .work-desc{
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
 }
 
@@ -164,4 +175,22 @@
     margin: 1% 35%; 
     text-align: center;
   }
+}
+.dot-right {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  float:right;
+  margin:0 0 0 auto;
+  border: 1px solid black;
+
+}
+
+.dot-left {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  float:left;
+  margin:0 0 0 auto;
+  border: 1px solid black;
 }
