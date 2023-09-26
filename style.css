@@ -45,6 +45,16 @@ h1 {
   line-height: normal;
 }
 
+h2 {
+  font-family: Athiti;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 0.2;
+  margin: 0%;
+  margin-right: 10%;
+  color: hotpink;
+}
+
 .header-name {
   display: block;
   margin-bottom: 0%;
@@ -202,6 +212,10 @@ a:hover{
     margin-left: 0%;
   }
 
+  h2 {
+    line-height: 1;
+  }
+
 }
 
 /* Work Page */
@@ -249,4 +263,68 @@ a:hover{
   float:left;
   margin:0 0 0 auto;
   border: 1px solid black;
+}
+
+/* more page */
+.more-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.more-container i {
+  color: hotpink;
+}
+/* .more-container h2 {
+  color: black;
+} */
+
+.more-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* photos page */
+.gallery {
+  display: grid;
+  max-width: 100%;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+  /* 300px */
+  /* grid-auto-rows: minmax(150px, auto); */
+}
+
+.gallery-item {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.gallery-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width:400px) {
+  /* For mobile phones: */
+  .gallery {
+    display: grid;
+    max-width: 40%;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    /* grid-template-columns: 60px 60px; */
+    /* grid-auto-rows: minmax(150px, auto); */
+  }
+  .gallery-item {
+    height: 100%;
+    width: 220px;
+    border-radius: 5px;
+  }
+  
+  .gallery-item:img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
