@@ -123,6 +123,14 @@ a:hover{
 .home-img {
   /* margin: 3% 25%;  */
   text-align: center;
+  width: 100%; 
+  height: auto
+}
+
+.home-img img {
+  width: 100%;
+  height: auto;
+  /* display: block; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -136,6 +144,16 @@ a:hover{
     margin: 1% 35%; 
     text-align: center;
   }
+}
+@media (max-width: 768px) {
+  .home-img img {
+      width: 75%; /* Adjusts image size for smaller screens */
+      margin: 0 auto; /* Centers image */
+  }
+  .home-text {
+    margin: 2% auto; /* Centers the text */
+    max-width: 425px; /* Matches profile-img max width */
+}
 }
 
 /* Work Page */
