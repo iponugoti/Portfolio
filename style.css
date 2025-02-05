@@ -362,7 +362,7 @@ a:hover{
   color: white;
 }
 
-/* Tag Styling */
+/* work tags */
 .work-tags {
   display: flex;
   gap: 5px;
@@ -379,10 +379,10 @@ a:hover{
   text-align: center;
 }
 
-/* Different Colors for Tags */
-.tag-blue { background-color: #007bff; } /* Blue */
-.tag-green { background-color: #28a745; } /* Green */
-.tag-red { background-color: #dc3545; } /* Red */
-.tag-purple { background-color: #6f42c1; } /* Purple */
-.tag-orange { background-color: #fd7e14; } /* Orange */
-.tag-yellow { background-color: #ffc107; } /* Yellow */
+/* colors for tags */
+.tag-blue { background-color: #007bff; }
+.tag-green { background-color: #28a745; }
+.tag-red { background-color: #dc3545; } 
+.tag-purple { background-color: #6f42c1; } 
+.tag-orange { background-color: #fd7e14; } 
+.tag-yellow { background-color: #ffc107; } 
